@@ -1,0 +1,9 @@
+version: 'v2.35.1'
+services:
+  app-one:
+    container_name: c1
+    build: .
+    volumes:
+      - .:/myapp:ro
+    ports:
+      - "4020:4020"

@@ -1,0 +1,21 @@
+body{
+    width:1h;
+    background-color: brown;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+header{ 
+    width: 100%;
+    display: inline-block;
+    background-color: cadetblue;
+    border-radius: 15px;
+    height: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+header div{ 
+    width: 30%;
+    display: inline-block;
+    margin-left: 40%;
+}
